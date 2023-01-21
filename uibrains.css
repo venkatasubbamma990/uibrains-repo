@@ -1,0 +1,91 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+.navbar-nav .nav-item a:hover{
+    color: black;
+    background-color: rgb(224, 212, 212);
+    border-radius: 50px;
+   
+
+}
+.font-weight-bold{
+    font-weight: bolder;
+}
+.landing-page{
+    background-image: url(ui.jpg);
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+
+}
+.landing-wrapper{
+    background-color: rgba(0,0,0,0.5);
+}
+#features h4{
+    color: rgb(17, 62, 25);
+}
+#features div{
+    box-shadow: 0 5px 10px black;
+    margin: 10px;
+   
+    border-radius: 10px;
+}
+.text{
+    background: linear-gradient(45deg,rgb(12, 43, 53),rgb(17, 47, 53),rgb(12, 49, 63));
+}
+.gallery img{
+    border-radius: 50px;
+    border: 5px solid rgb(17, 69, 74);
+    margin: 10px;
+    box-shadow: 0 5px 10px black;
+    transition:  all 0.5s;
+    
+}
+.gallery img:hover{
+    transform: scale(0.5);
+}
+.intro{
+    background: linear-gradient(45deg,rgb(20, 44, 49),rgb(8, 104, 142));
+}
+.courses h3{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
+.courses img{
+    width: 400px;
+    height: 300px;
+    border-radius: 50px;
+    box-shadow: 0 5px 10px black;
+    border: 5px solid rgb(4, 28, 47);
+}
+.intro1{
+    background: linear-gradient(45deg,black,rgb(57, 27, 225),rgb(39, 8, 193),black);
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.card {
+    position: relative;
+    
+}
+.mentors .cards img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 100px;
+    margin-top: -50px;
+    box-shadow: 0 5px 10px rgb(12, 4, 4);
+    
+}
+.card-body, .card{
+    border-radius: 20px;
+    background: linear-gradient(45deg,black,rgb(57, 27, 225),rgb(39, 8, 193),black); ;
+}
+
